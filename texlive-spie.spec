@@ -47,6 +47,7 @@ A class and a BibTeX style are provided.
 %doc %{_texmfdistdir}/doc/latex/spie/article.pdf
 %doc %{_texmfdistdir}/doc/latex/spie/article.tex
 %doc %{_texmfdistdir}/doc/latex/spie/mcr3b.eps
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ A class and a BibTeX style are provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
