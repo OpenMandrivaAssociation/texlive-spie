@@ -6,7 +6,7 @@
 # catalog-version 3.25
 Name:		texlive-spie
 Version:	3.25
-Release:	9
+Release:	10
 Summary:	Support for formatting SPIE Proceedings manuscripts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/spie
