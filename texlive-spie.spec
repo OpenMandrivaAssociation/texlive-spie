@@ -1,6 +1,6 @@
 Name:		texlive-spie
-Version:	15878
-Release:	2
+Version:	75447
+Release:	1
 Summary:	Support for formatting SPIE Proceedings manuscripts
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/spie
